@@ -1,0 +1,118 @@
+.cursor-pointer{
+    cursor: pointer;
+}
+
+#main-nav {
+    position: fixed;
+    left: -250px;
+    /* left: 0px; */
+    top: 0px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    height: 100vh;
+    font-size: 24px;
+    /* display: none; */
+    transition: left 2s, padding 1s;
+    z-index: 99;
+}
+
+#main-nav li {
+    margin: 20px;
+}
+
+#main-nav a {
+    color: #fff !important;
+}
+
+#main-nav a:hover,
+.closeIcon:hover {
+    color: var(--MainColor) !important;
+}
+
+
+.mainBackground{
+    background-image: linear-gradient(to right, var(--MainColor), var(--MainColor)), url(../images/events-heavenly-header.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 88vh;
+    position: relative;
+}
+
+.joinUsSection{
+    background-image: linear-gradient(to right, var(--MainColor), var(--MainColor)), url(../images/invitation-2508607__340.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    position: relative;
+    /* height: 350px; */
+
+}
+.joinUsSection .row{
+    /* background-color: aqua; */
+    height: 550px;
+
+}
+
+section .myContent {
+    height: 88vh;
+}
+
+.myIcon {
+    color: #fff;
+    max-width: 50px;
+    font-size: 30px;
+    position: absolute;
+    left: 40px;
+    top: 240px;
+    cursor: pointer;
+    transition: left 2s, padding 1s;
+}
+
+.mainNavBar {
+    position: relative;
+    /* background-color: yellow !important; */
+}
+
+.closeIcon {
+    color: #fff;
+    max-width: 50px;
+    font-size: 30px;
+    position: absolute;
+    left: 200px;
+    top: 25px;
+    /* display: none; */
+    cursor: pointer;
+}
+
+.singerName {
+    background-color: var(--secondSectionSingerNameColor);
+    margin: 0px;
+    padding: 10px;
+    cursor: pointer;
+
+    color: #fff;
+}
+
+.singerContent {
+    padding: 20px;
+    margin: 0px;
+    background-color: var(--secondSectionSingerContentColor);
+    display: none;
+
+}
+
+.enableContent {
+    display: block;
+}
+
+.btn-Color{
+    background-color: var(--btnColor);
+}
+
+.text-red{
+    color: var(--textColor);
+
+}
